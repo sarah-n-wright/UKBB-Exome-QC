@@ -10,4 +10,4 @@ source setup.configure
 
 python subroutines/snp_vs_exome_combine.py $OUTDIR
 
-python subroutines/plt_snp_vs_exome.py $OUTDIR
+python subroutines/plot_snp_vs_exome.py $OUTDIR

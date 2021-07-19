@@ -19,7 +19,7 @@ Data:
  
 ## Setup
 
-Modify setup.configure to point to local file locations.
+Modify setup.configure to point to local file locations. *Distributed computation Note:* you will need to modify the #SBATCH headers to match your setup.  
 
 ## SNP vs Exome
 **Option 1:** Run `bash snp_vs_exome.sh` to perform analysis and produce the summary plot.  
@@ -32,6 +32,10 @@ All intermediate files and final outputs will be saved in the directory specifie
 **Option 2:** Run `gnomad_v_exome-slurmJob1.sh` until completion followed by `gnomad_v_exome-slurmJob2.sh` to perform the same analysis using distributed computation.
 
 All intermediate files and final outputs will be saved in the directory specified in `setup.configure`  
+
+## Optional Jupyter Notebook
+
+As well as the .png plots produced by the included scripts, the results can also be viewed in the provided `Plot Final Comparisons.ipynb` notebook.
 
 ## TODOs
 ToDo: Need to tune the SNP plot.
