@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#plink=#/path/to/plink
+plink=~/.conda/envs/Command/bin/plink
+
+#ukbb_snp_path=#/path/to/ukbb/snpchip/data
+ukbb_snp_path=/nrnb/ukb-genetic/snp_chip/each_chr
+#ukbb_exome_path=#/path/to/ukbb/exome/data
+ukbb_exome_path=/nrnb/ukb-majithia/data/OQFE_200k_exm
+
+#OUTDIR=#/path/to/output/
+OUTDIR=/nrnb/ukb-majithia/data/exome_debug/final
+
